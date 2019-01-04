@@ -1,0 +1,17 @@
+{
+  "name": "my_portfolio",
+  "version": "1.0.0",
+  "description": "Shruti's page",
+  "main": "index.js",
+  "homepage": "https://Shruti.github.io/",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Shruti Kar",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.9.3"
+  }
+}
